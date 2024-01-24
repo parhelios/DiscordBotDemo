@@ -1,5 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using DiscordBotDemo.Data;
+
 using DiscordBotDemo.DataAccess;
 using DSharpPlus;
 using System;

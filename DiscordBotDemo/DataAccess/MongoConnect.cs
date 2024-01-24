@@ -14,7 +14,7 @@ namespace DiscordBotDemo.DataAccess
 
         public MongoConnect(string database)
         {
-            var client = new MongoClient("");
+            var client = new MongoClient("https://github.com/josephRashidMaalouf/DiscordBotDemo");
             _db = client.GetDatabase(database);
         }
 
